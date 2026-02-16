@@ -1,7 +1,14 @@
 "use server";
 
-import { createClient } from "@/lib/supabase/server";
+import { createClient as createServiceClient } from "@supabase/supabase-js";
 import { sendWelcomeEmail } from "@/lib/email/welcome";
+
+function getServiceSupabase() {
+  return createServiceClient(
+    process.env.NEXT_PUBLIC_SUPABASE_URL!,
+    process.env.SUPABASE_SERVICE_ROLE_KEY!
+  );
+}
 
 type SignupResult =
   | { success: true }
@@ -19,7 +26,7 @@ export async function joinWaitlist(formData: {
     return { success: false, error: "Please enter a valid email." };
   }
 
-  const supabase = await createClient();
+  const supabase = getServiceSupabase();
 
   const mappedRole =
     role === "quest-giver"
