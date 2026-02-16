@@ -1,0 +1,124 @@
+type RoleConfig = {
+  roleName: string;
+  roleEmoji: string;
+  heroColor: string;
+  ctaHtml: string;
+};
+
+function getRoleConfig(role: string): RoleConfig {
+  switch (role) {
+    case "quest_giver":
+      return {
+        roleName: "Quest Giver",
+        roleEmoji: "\u{1F3F0}",
+        heroColor: "#F97316",
+        ctaHtml:
+          "As a Quest Giver, you'll be able to post jobs and find verified contractors — with your first month completely free.",
+      };
+    case "both":
+      return {
+        roleName: "Quest Giver & Adventurer",
+        roleEmoji: "\u{2694}\uFE0F\u{1F3F0}",
+        heroColor: "#0D9488",
+        ctaHtml:
+          "You've signed up as both a Quest Giver and an Adventurer — the best of both worlds. Post quests <em>and</em> pick them up. Your first month posting is free, and as one of the first 100 adventurers you lock in $25/mo forever.",
+      };
+    default:
+      return {
+        roleName: "Adventurer",
+        roleEmoji: "\u{2694}\uFE0F",
+        heroColor: "#2563EB",
+        ctaHtml:
+          "As an Adventurer, you'll get matched with real quests from verified clients. First 100 adventurers lock in $25/mo forever.",
+      };
+  }
+}
+
+export function buildPreviewHtml(role: string): string {
+  const { roleName, roleEmoji, heroColor, ctaHtml } = getRoleConfig(role);
+
+  return `
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body style="margin:0;padding:0;background-color:#f5f5f7;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;">
+  <table width="100%" cellpadding="0" cellspacing="0" style="background-color:#f5f5f7;padding:40px 20px;">
+    <tr>
+      <td align="center">
+        <table width="100%" cellpadding="0" cellspacing="0" style="max-width:560px;background-color:#ffffff;border-radius:16px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.06);">
+
+          <!-- Header -->
+          <tr>
+            <td style="background:linear-gradient(135deg,#2563EB,#0D9488);padding:32px 40px;text-align:center;">
+              <table cellpadding="0" cellspacing="0" style="margin:0 auto;">
+                <tr>
+                  <td style="background-color:rgba(255,255,255,0.2);border-radius:10px;padding:6px 12px;">
+                    <span style="color:#ffffff;font-size:18px;font-weight:800;letter-spacing:0.5px;">G</span>
+                  </td>
+                  <td style="padding-left:10px;">
+                    <span style="color:#ffffff;font-size:20px;font-weight:700;letter-spacing:0.5px;">GUILD</span>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Body -->
+          <tr>
+            <td style="padding:40px;">
+              <h1 style="margin:0 0 8px;font-size:24px;font-weight:700;color:#1a1a1a;line-height:1.3;">
+                Quest Accepted! ${roleEmoji}
+              </h1>
+              <p style="margin:0 0 24px;font-size:15px;color:#6b7280;line-height:1.6;">
+                You've been added to the Guild waitlist as a <strong style="color:${heroColor};">${roleName}</strong>.
+              </p>
+
+              <div style="background-color:#f9fafb;border-radius:12px;padding:20px 24px;margin-bottom:24px;border-left:3px solid ${heroColor};">
+                <p style="margin:0;font-size:14px;color:#374151;line-height:1.6;">
+                  ${ctaHtml}
+                </p>
+              </div>
+
+              <h2 style="margin:0 0 12px;font-size:16px;font-weight:600;color:#1a1a1a;">What happens next?</h2>
+              <table cellpadding="0" cellspacing="0" width="100%">
+                <tr>
+                  <td style="padding:6px 0;font-size:14px;color:#4b5563;line-height:1.5;">
+                    <span style="color:${heroColor};font-weight:600;">1.</span> &nbsp;We're building the platform right now
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding:6px 0;font-size:14px;color:#4b5563;line-height:1.5;">
+                    <span style="color:${heroColor};font-weight:600;">2.</span> &nbsp;You'll get early access before public launch
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding:6px 0;font-size:14px;color:#4b5563;line-height:1.5;">
+                    <span style="color:${heroColor};font-weight:600;">3.</span> &nbsp;Founding member pricing is locked in forever
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Footer -->
+          <tr>
+            <td style="padding:0 40px 32px;text-align:center;">
+              <div style="border-top:1px solid #e5e7eb;padding-top:24px;">
+                <p style="margin:0;font-size:12px;color:#9ca3af;line-height:1.5;">
+                  You're receiving this because you signed up at <a href="https://joinguild.app" style="color:#2563EB;text-decoration:none;">joinguild.app</a>.<br />
+                  No lead fees. No commissions. No BS.
+                </p>
+              </div>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>`.trim();
+}
