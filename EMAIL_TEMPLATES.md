@@ -1,68 +1,68 @@
-# Email Templates
+# Guild - Email Templates
 
 Ready-to-use email templates for all user communications. Copy, customize, send.
 
 ---
 
-## 1. Welcome Email - Contractor
+## 1. Welcome Email - Adventurer (Contractor)
 
-**Subject:** Welcome to Contractie - Next Steps
+**Subject:** Welcome to the Guild - Next Steps
 
 ```
-Hi [Contractor Name],
+Hi [Adventurer Name],
 
-Welcome to Contractie! We're excited to have [Company Name] on board.
+Welcome to the Guild! We're excited to have [Company Name] join our party.
 
 Here's what happens next:
 
 1. Complete your profile (add photos of past work, services, service area)
 2. We'll verify your license (takes 24-48 hours)
-3. Start browsing jobs in your area
+3. Start browsing quests in your area
 
-WHAT MAKES US DIFFERENT:
-- No per-lead fees (just $25/month for unlimited access)
-- Limited competition (only 2-3 contractors per job)
-- Serious homeowners only (they pay to post)
+WHAT MAKES THE GUILD DIFFERENT:
+- No per-lead fees (just $25/month for unlimited quests)
+- Limited competition (only 2-3 adventurers per quest)
+- Serious quest givers only (they pay to post)
 
 YOUR PROFILE:
 [Link to complete profile]
 
 Questions? Just reply to this email.
 
-Thanks,
+Quest on,
 [Your Name]
-Contractie
+Guild Hall
 ```
 
 ---
 
-## 2. Welcome Email - Homeowner
+## 2. Welcome Email - Quest Giver (Client)
 
-**Subject:** Welcome to Contractie - Post Your First Job
+**Subject:** Welcome to the Guild - Post Your First Quest
 
 ```
-Hi [Homeowner Name],
+Hi [Quest Giver Name],
 
-Welcome to Contractie! You're now connected to verified contractors in [City].
+Welcome to the Guild! You're now connected to verified adventurers in [City].
 
 YOUR FREE ACCOUNT INCLUDES:
-- 1 job post per month
-- Connect with up to 3 contractors
+- 1 quest post per month
+- Connect with up to 3 adventurers
 - Access to fully verified professionals
 
-POST YOUR FIRST JOB:
+POST YOUR FIRST QUEST:
 It takes 2 minutes. Just tell us:
 - What you need done
 - Where you are
 - When you need it
 
-[Post a Job]
+[Post a Quest]
 
 WHAT HAPPENS NEXT:
-1. Verified contractors in your area see your job
-2. Interested contractors express interest
+1. Verified adventurers in your area see your quest
+2. Interested adventurers apply to join your party
 3. We review and send you 2-3 qualified options
-4. You connect directly and hire who you want
+4. You connect directly and choose your party
 
 No spam. No unlicensed workers. No obligation.
 
@@ -70,70 +70,70 @@ Questions? Just reply to this email.
 
 Thanks,
 [Your Name]
-Contractie
+Guild Hall
 ```
 
 ---
 
-## 3. Contractor Approved Email
+## 3. Adventurer Approved Email
 
-**Subject:** You're Verified! Start Browsing Jobs
+**Subject:** You're Verified! Start Browsing Quests
 
 ```
-Hi [Contractor Name],
+Hi [Adventurer Name],
 
-Great news! We've verified your license and approved your profile.
+Great news! We've verified your license and approved your guild membership.
 
 YOUR PROFILE IS NOW LIVE:
 [Link to profile]
 
-START BROWSING JOBS:
-[Link to job feed]
+START BROWSING QUESTS:
+[Link to quest board]
 
 WHAT YOU CAN DO NOW:
-- Browse jobs in your service area
-- Express interest on up to 5 jobs/month (free plan)
-- Get introduced directly to homeowners
+- Browse quests in your service area
+- Apply to join up to 5 parties/month (free plan)
+- Get introduced directly to quest givers
 
 UPGRADE TO PRO ($25/month):
-- Unlimited job interest expressions
+- Unlimited quest applications
 - Priority placement in search
-- "Verified Pro" badge
+- "Verified Adventurer" badge
 
 [Upgrade to Pro]
 
-TIP: Complete jobs lead to more jobs. Homeowners can see your past work and reviews.
+TIP: Complete quests lead to more quests. Quest givers can see your past work and reviews.
 
-Good luck!
+Quest on!
 [Your Name]
-Contractie
+Guild Hall
 ```
 
 ---
 
-## 4. Job Match Introduction Email (THE KEY EMAIL)
+## 4. Party Formation Email (THE KEY EMAIL)
 
-**Subject:** Introduction: [Contractor Name] ↔ [Homeowner Name] for [Job Type]
+**Subject:** Party Formation: [Adventurer Name] ↔ [Quest Giver Name] for [Quest Type]
 
 ```
-Hi [Contractor Name] and [Homeowner Name],
+Hi [Adventurer Name] and [Quest Giver Name],
 
-I'm connecting you both regarding the [Job Type] project in [Location].
+I'm connecting you both regarding the [Quest Type] quest in [Location].
 
 ---
 
-FOR [Homeowner Name]:
+FOR [Quest Giver Name]:
 
-Meet [Contractor Name] from [Company Name].
+Meet [Adventurer Name] from [Company Name].
 
-THEY'RE QUALIFIED FOR YOUR PROJECT BECAUSE:
+THEY'RE QUALIFIED FOR YOUR QUEST BECAUSE:
 - Licensed [Trade] in [State] (License #[Number])
 - [X] years experience
 - Specializes in [Relevant Service]
 - Insurance verified
 
 VIEW THEIR PROFILE:
-[Link to contractor profile]
+[Link to adventurer profile]
 
 CONTACT INFO:
 Phone: [Phone]
@@ -141,81 +141,81 @@ Email: [Email]
 
 ---
 
-FOR [Contractor Name]:
+FOR [Adventurer Name]:
 
-Meet [Homeowner Name]. They need [Brief Job Description].
+Meet [Quest Giver Name]. They have a [Brief Quest Description].
 
-PROJECT DETAILS:
+QUEST DETAILS:
 - Location: [Address/Area]
 - Timing: [When they need it]
 - Budget: [If shared]
-- Details: [Link to full job post]
+- Details: [Link to full quest post]
 
-HOMEOWNER CONTACT:
+QUEST GIVER CONTACT:
 Phone: [Phone]
 Email: [Email]
 
 ---
 
 NEXT STEPS:
-1. [Contractor Name] - Reach out within 24 hours
-2. [Homeowner Name] - Expect a call/email soon
-3. Discuss project details, timeline, and pricing
+1. [Adventurer Name] - Reach out within 24 hours
+2. [Quest Giver Name] - Expect a call/email soon
+3. Discuss quest details, timeline, and pricing
 4. Work directly - no platform fees, no middleman
 
-I'll follow up in one week to see how things went!
+I'll follow up in one week to see how the quest went!
 
 Questions? Just reply to this email.
 
 Best,
 [Your Name]
-Contractie
+Guild Hall
 
 ---
 
-P.S. This introduction is based on matching your needs and qualifications. Neither party is obligated to proceed. Trust your gut, check references, and get everything in writing.
+P.S. This party formation is based on matching your needs and qualifications. Neither party is obligated to proceed. Trust your gut, check references, and get everything in writing.
 ```
 
 ---
 
 ## 5. Follow-Up Email Template
 
-**Subject:** Quick check-in: How did it go with [Contractor/Homeowner Name]?
+**Subject:** Quick check-in: How did the quest go with [Adventurer/Quest Giver Name]?
 
 ```
 Hi [Name],
 
-Last week I introduced you to [Other Party Name] for the [Job Type] project.
+Last week I introduced you to [Other Party Name] for the [Quest Type] quest.
 
 QUICK QUESTION:
 Did you two connect? How did it go?
 
 REPLY WITH:
 1. Did you connect? (Yes/No)
-2. If yes: Project status? (Quoted / Scheduled / In Progress / Completed / Declined)
+2. If yes: Quest status? (Quoted / Scheduled / In Progress / Completed / Declined)
 3. Any feedback?
 
-This helps me improve matches and ensure quality on both sides.
+This helps me improve party formations and ensure quality on both sides.
 
 Thanks!
 [Your Name]
-Contractie
+Guild Hall
 
 ---
 
-P.S. If the match didn't work out, no worries. Let me know if you'd like me to look for other options.
+P.S. If the party formation didn't work out, no worries. Let me know if you'd like me to look for other options.
 ```
 
 ---
 
-## 6. Contractor Rejection Email (License Issues)
+## 6. Adventurer Rejection Email (License Issues)
 
-**Subject:** Contractie Application - Additional Info Needed
+**Subject:** Guild Application - Additional Info Needed
 
 ```
-Hi [Contractor Name],
+Hi [Adventurer Name],
 
-Thanks for applying to Contractie. We ran into an issue verifying your license.
+Thanks for applying to the Guild. We ran into an issue verifying your license.
 
 ISSUE: [Specific reason - license expired, not found, etc.]
 
@@ -230,141 +230,141 @@ Questions? Just reply to this email.
 
 Thanks,
 [Your Name]
-Contractie
+Guild Hall
 ```
 
 ---
 
-## 7. Job Filled Notification (To Other Interested Contractors)
+## 7. Quest Filled Notification (To Other Interested Adventurers)
 
-**Subject:** Job Update: [Job Type] position filled
+**Subject:** Quest Update: [Quest Type] party is full
 
 ```
-Hi [Contractor Name],
+Hi [Adventurer Name],
 
-The [Job Type] job in [Location] you expressed interest in has been filled.
+The [Quest Type] quest in [Location] you applied for has been filled.
 
 DON'T WORRY:
-New jobs are posted daily. Check out the latest:
+New quests are posted daily. Check out the latest:
 
-[Browse Jobs]
+[Browse Quests]
 
-TIP: Pro members get notified of new jobs immediately. Free members get daily digest.
+TIP: Pro members get notified of new quests immediately. Free members get daily digest.
 
 [Upgrade to Pro]
 
 Thanks for your interest!
 [Your Name]
-Contractie
+Guild Hall
 ```
 
 ---
 
-## 8. Weekly Digest - Contractors
+## 8. Weekly Digest - Adventurers
 
-**Subject:** This Week's Jobs in [City]
+**Subject:** This Week's Quests in [City]
 
 ```
-Hi [Contractor Name],
+Hi [Adventurer Name],
 
-Here are this week's new jobs in your area:
+Here are this week's new quests in your area:
 
-[Job 1]
+[Quest 1]
 - Type: [Service]
 - Location: [Area]
 - Posted: [Date]
-[Express Interest]
+[Apply to Quest]
 
-[Job 2]
+[Quest 2]
 - Type: [Service]
 - Location: [Area]
 - Posted: [Date]
-[Express Interest]
+[Apply to Quest]
 
-[Job 3]
+[Quest 3]
 ...
 
-VIEW ALL JOBS:
-[Link to job feed]
+VIEW ALL QUESTS:
+[Link to quest board]
 
 ---
 
 YOUR STATS:
 - Profile views this week: [X]
-- Jobs you've expressed interest in: [X]
-- Matches made: [X]
+- Quests you've applied to: [X]
+- Parties formed: [X]
 
 COMPLETE YOUR PROFILE:
-Contractors with photos and detailed descriptions get 3x more matches.
+Adventurers with photos and detailed descriptions get 3x more party invites.
 
 [Update Profile]
 
-Thanks,
+Quest on,
 [Your Name]
-Contractie
+Guild Hall
 ```
 
 ---
 
-## 9. Re-engagement - Dormant Homeowner
+## 9. Re-engagement - Dormant Quest Giver
 
-**Subject:** Still looking for a contractor in [City]?
+**Subject:** Still looking for an adventurer in [City]?
 
 ```
-Hi [Homeowner Name],
+Hi [Quest Giver Name],
 
-It's been [X days] since you posted your [Job Type] project on Contractie.
+It's been [X days] since you posted your [Quest Type] quest on Guild.
 
 OPTIONS:
 
 1. STILL LOOKING?
-We can feature your job to get more contractor interest.
-[Feature My Job]
+We can feature your quest to get more adventurer interest.
+[Feature My Quest]
 
-2. PROJECT ON HOLD?
+2. QUEST ON HOLD?
 No problem. We'll keep your post active for when you're ready.
 
 3. FOUND SOMEONE?
-Great! Let us know and we'll close your post.
-[Mark as Filled]
+Great! Let us know and we'll close your quest.
+[Mark as Complete]
 
 4. DIDN'T FIND THE RIGHT FIT?
 Reply and tell us what you're looking for. We might know someone perfect.
 
 Thanks,
 [Your Name]
-Contractie
+Guild Hall
 ```
 
 ---
 
-## 10. Re-engagement - Dormant Contractor
+## 10. Re-engagement - Dormant Adventurer
 
-**Subject:** New jobs waiting in [City]
+**Subject:** New quests waiting in [City]
 
 ```
-Hi [Contractor Name],
+Hi [Adventurer Name],
 
-It's been [X days] since you last checked Contractie.
+It's been [X days] since you last checked the Guild.
 
-NEW JOBS THIS WEEK:
-- [X] jobs posted in your service area
+NEW QUESTS THIS WEEK:
+- [X] quests posted in your service area
 - [X] match your trade
-- [X] are high-budget projects
+- [X] are high-budget quests
 
-[Browse Jobs Now]
+[Browse Quests Now]
 
 MISSED OPPORTUNITIES:
-Contractors who check daily get first dibs on the best jobs.
+Adventurers who check daily get first dibs on the best quests.
 
 SET UP NOTIFICATIONS:
-Get emailed when jobs matching your criteria are posted.
+Get emailed when quests matching your criteria are posted.
 
 [Update Notification Settings]
 
-Thanks,
+Quest on,
 [Your Name]
-Contractie
+Guild Hall
 ```
 
 ---
@@ -387,13 +387,13 @@ Contractie
 Always personalize with:
 - [First Name]
 - [City/Location]
-- [Job Type]
-- [Company Name] (for contractors)
+- [Quest Type]
+- [Company Name] (for adventurers)
 
 ### Tracking
 Add UTM parameters to links:
 ```
-?utm_source=email&utm_medium=email&utm_campaign=welcome_contractor
+?utm_source=email&utm_medium=email&utm_campaign=welcome_adventurer
 ```
 
 ---
@@ -402,11 +402,11 @@ Add UTM parameters to links:
 
 | Event | Email | Timing |
 |-------|-------|--------|
-| Contractor signs up | Welcome | Immediate |
-| Homeowner signs up | Welcome | Immediate |
-| Contractor verified | Approval | Within 24h |
-| Match made | Introduction | Within 4h |
+| Adventurer signs up | Welcome | Immediate |
+| Quest giver signs up | Welcome | Immediate |
+| Adventurer verified | Approval | Within 24h |
+| Party formed | Introduction | Within 4h |
 | 7 days after intro | Follow-up | Day 7 |
 | Weekly | Digest | Same day weekly |
-| Job filled | Notification | Immediate |
+| Quest filled | Notification | Immediate |
 | 14 days inactive | Re-engagement | Day 14 |

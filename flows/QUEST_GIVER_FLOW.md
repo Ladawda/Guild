@@ -1,8 +1,8 @@
-# Contractie - Client User Flow
+# Guild - Quest Giver User Flow
 
 ## Overview
 
-Complete user journey for **Clients** (anyone posting jobs) — homeowners, property managers, business owners, real estate investors, or anyone needing contractor work.
+Complete user journey for **Quest Givers** (anyone posting quests) — homeowners, property managers, business owners, real estate investors, or anyone needing contractor work.
 
 ---
 
@@ -10,8 +10,8 @@ Complete user journey for **Clients** (anyone posting jobs) — homeowners, prop
 
 | Tier | Price | Features |
 |------|-------|----------|
-| **Launch Promo** | **FREE** | First month free for all job posts |
-| **Regular** | **$10 per job post** | One-time fee, no recurring charges |
+| **Launch Promo** | **FREE** | First month free for all quest posts |
+| **Regular** | **$10 per quest** | One-time fee, no recurring charges |
 
 ---
 
@@ -21,7 +21,7 @@ Complete user journey for **Clients** (anyone posting jobs) — homeowners, prop
 
 | Source | Search Query | Landing Experience |
 |--------|--------------|-------------------|
-| Google SEO | "flooring contractor near me" | Local contractor directory |
+| Google SEO | "flooring contractor near me" | Local adventurer directory |
 | Google SEO | "licensed plumber [city]" | City-specific landing page |
 | Google SEO | "property management contractors" | Commercial focus page |
 | Referral | Direct link | Generic landing |
@@ -30,17 +30,17 @@ Complete user journey for **Clients** (anyone posting jobs) — homeowners, prop
 ### Landing Page (`/`)
 
 **Hero Section:**
-- Headline: "Find Verified Contractors for Any Project"
-- Subheadline: "Property managers, homeowners, businesses — get quotes from licensed pros in your area."
+- Headline: "Join the Guild"
+- Subheadline: "Post a quest. Find your party. Get it done."
 - CTAs:
-  - Primary: "Post a Job" (for job posters)
-  - Secondary: "Join as Contractor" (for contractors)
+  - Primary: "Post a Quest" (for quest givers)
+  - Secondary: "Join as Adventurer" (for adventurers)
 
 **Launch Promo Banner:**
-🎉 **GRAND OPENING** — Post your first job FREE this month!
+🎉 **GRAND OPENING** — Post your first quest FREE this month!
 
 **Trust Signals:**
-- "Join 1,000+ property managers finding reliable contractors"
+- "Join 1,000+ quest givers finding reliable adventurers"
 - "Verified licenses • No middleman fees • Direct contact"
 
 ---
@@ -49,7 +49,7 @@ Complete user journey for **Clients** (anyone posting jobs) — homeowners, prop
 
 ### Step 1: Account Creation
 
-**Route**: `/signup?type=client`
+**Route**: `/signup?type=quest-giver`
 
 **Options:**
 - Email + Password
@@ -71,7 +71,7 @@ Same flow as before.
 
 ### Step 3: Profile Setup
 
-**Route**: `/onboarding/client/profile`
+**Route**: `/onboarding/quest-giver/profile`
 
 **Fields:**
 ```typescript
@@ -87,19 +87,19 @@ Same flow as before.
 
 ---
 
-## Phase 3: Job Posting
+## Phase 3: Quest Posting
 
-### Job Post Wizard
+### Quest Post Wizard
 
-**Route**: `/post-job`
+**Route**: `/post-quest`
 
-**Step 1: Job Basics**
+**Step 1: Quest Basics**
 ```typescript
 {
   title: string;              // e.g., "Bathroom renovation - 2 units"
   trade: string;              // Select from list
   description: string;        // Textarea, min 50 chars
-  jobType: 'residential' | 'commercial' | 'multi-family';
+  questType: 'residential' | 'commercial' | 'multi-family';
 }
 ```
 
@@ -133,7 +133,7 @@ Same flow as before.
 **Review Card:**
 ```
 +------------------------+
-| Job Summary            |
+| Quest Summary          |
 | Title: [title]         |
 | Trade: [trade]         |
 | Location: [address]    |
@@ -141,7 +141,7 @@ Same flow as before.
 | Photos: [count]        |
 +------------------------+
 | Payment                |
-| Job posting fee: $10   |
+| Quest posting fee: $10 |
 | [Pay with Stripe]      |
 +------------------------+
 ```
@@ -149,78 +149,78 @@ Same flow as before.
 **Launch Promo:** "FREE — Grand Opening Offer"
 
 **Success:**
-- Job posted
+- Quest posted
 - Confirmation email
 - Redirect to dashboard
 
 ---
 
-## Phase 4: Contractor Matching
+## Phase 4: Adventurer Matching
 
-### Client Dashboard
+### Quest Giver Dashboard
 
 **URL**: `/dashboard`
 
 **Sections:**
 
-**Active Jobs:**
+**Active Quests:**
 ```
 +------------------------+
-| [Job Title]            |
+| [Quest Title]          |
 | Status: [Open/Filled]  |
-| 3 contractors interested|
+| 3 adventurers applied  |
 | [Review Applicants]    |
 +------------------------+
 ```
 
 **Applicant Review:**
-- Contractor cards with:
+- Adventurer cards with:
   - Name, photo
   - License verified badge
   - Years experience
-  - Past job photos
+  - Past quest photos
   - "View Profile" button
-  - "Contact" button
+  - "Form Party" button
 
-**Contact Flow:**
-1. Client clicks "Contact" on contractor
+**Party Formation Flow:**
+1. Quest giver clicks "Form Party" on adventurer
 2. System emails both parties with intro
 3. They communicate off-platform
-4. Client marks job as "Contractor Selected"
+4. Quest giver marks quest as "Party Formed"
 
 ---
 
-## Phase 5: Project Execution
+## Phase 5: Quest Execution
 
-### Job Status Tracking
+### Quest Status Tracking
 
 **Statuses:**
-- Open (accepting interest)
-- Reviewing (evaluating contractors)
-- Contractor Selected
+- Open (accepting applications)
+- Reviewing (evaluating adventurers)
+- Party Formed
 - In Progress
-- Completed
+- Quest Complete
 - Cancelled
 
-**Client Actions:**
-- Mark as "Contractor Selected"
+**Quest Giver Actions:**
+- Mark as "Party Formed"
 - Mark as "In Progress"
-- Mark as "Completed"
-- Cancel job (if no contractor selected, refund issued)
+- Mark as "Quest Complete"
+- Cancel quest (if no adventurer selected, refund issued)
 
 ---
 
 ## Refund Policy
 
-If no contractor expresses interest in 7 days:
-- Automatic credit for another free post
+If no adventurer applies within 7 days:
+- Automatic credit for another free quest post
 - Email notification with option to boost visibility
 
 ---
 
 ## Summary
 
-The **Client** flow supports:
+The **Quest Giver** flow supports:
 - ✅ Homeowners with single projects
 - ✅ Property managers with portfolios
 - ✅ Business owners with commercial needs

@@ -1,22 +1,22 @@
-# Landing Page Copy
+# Guild - Landing Page Copy
 
-Complete copy for Contractie landing page. Ready to drop into your Next.js app.
+Complete copy for Guild landing page. Ready to drop into your Next.js app.
 
 ---
 
 ## Headline Options
 
-### Option 1: Direct & Clear
-# Find Verified Contractors in [City]
-No more guessing. No more unlicensed handymen. Just qualified pros ready for your project.
+### Option 1: Direct & Clear (Guild Theme)
+# Join the Guild
+Post a quest. Find your party. Get it done.
 
 ### Option 2: Problem-Focused
 # Tired of Contractors Who Don't Show Up?
-Connect with verified, licensed professionals who actually want your business.
+Connect with verified, licensed adventurers who actually want your quest.
 
-### Option 3: Trust-Focused
-# Every Contractor Here Is Verified by a Real Human
-License checked. References confirmed. Real pros only.
+### Option 3: Community-Focused
+# Welcome to the Guild
+Where skilled tradespeople and people who need work done come together.
 
 **Recommendation:** Start with Option 1, A/B test with Option 2.
 
@@ -24,11 +24,11 @@ License checked. References confirmed. Real pros only.
 
 ## Subheadline
 
-**For homeowners:**
-Post your job once. Get connected with verified contractors who are actually available and interested. No spam, no unlicensed workers, no endless phone tag.
+**For quest givers:**
+Post your quest once. Get connected with verified adventurers who are actually available and interested. No spam, no unlicensed workers, no endless phone tag.
 
-**For contractors:**
-Browse real jobs from serious homeowners. No lead fees. No competing with 20 other contractors. Just you, your work, and people who need it.
+**For adventurers:**
+Browse real quests from serious quest givers. No lead fees. No competing with 20 other adventurers. Just you, your skills, and people who need them.
 
 ---
 
@@ -36,14 +36,14 @@ Browse real jobs from serious homeowners. No lead fees. No competing with 20 oth
 
 ### The Old Way Doesn't Work
 
-**For Homeowners:**
+**For Quest Givers:**
 - Post on [Big Platform] → Get 50 calls from unqualified workers
 - Ask friends → They used someone 3 years ago who might be retired
 - Google "contractor near me" → Hope for the best
 - Result: Wasted time, questionable quality, no peace of mind
 
-**For Contractors:**
-- Pay $50/lead on [Big Platform] → Compete with 15 other contractors
+**For Adventurers:**
+- Pay $50/lead on [Big Platform] → Compete with 15 other adventurers
 - Hope someone sees your website → They don't
 - Rely on word-of-mouth → Inconsistent
 - Result: Expensive leads, low close rates, feast-or-famine income
@@ -52,57 +52,57 @@ Browse real jobs from serious homeowners. No lead fees. No competing with 20 oth
 
 ## Solution Explanation
 
-## Contractie Fixes Both Sides
+## The Guild Fixes Both Sides
 
-**We verify every contractor by hand.**
+**We verify every adventurer by hand.**
 Real humans check licenses, confirm insurance, review past work. No shortcuts.
 
 **We limit competition.**
-Contractors see your job. They express interest. You get 2-3 qualified options, not 50 random calls.
+Adventurers see your quest. They apply. You get 2-3 qualified options, not 50 random calls.
 
-**We make introductions, then get out of the way.**
-No forced messaging apps. No platform fees on your project. Just a warm intro to someone qualified, then you work directly.
+**We form your party, then get out of the way.**
+No forced messaging apps. No platform fees on your quest. Just a warm intro to someone qualified, then you work directly.
 
 ---
 
 ## How It Works (3 Steps)
 
-### Step 1: Post Your Job (2 Minutes)
+### Step 1: Post Your Quest (2 Minutes)
 Tell us what you need, where you are, and when. No phone number required until you're ready.
 
-### Step 2: Get Matatched (24-48 Hours)
-Verified contractors in your area review your job. Interested? We check them out first.
+### Step 2: Form Your Party (24-48 Hours)
+Verified adventurers in your area review your quest. Interested? We check them out first.
 
-### Step 3: Connect Directly
+### Step 3: Complete the Quest
 We email you both. You talk. You decide. No middleman, no markup, no app to download.
 
-**CTA Button:** [Post Your Job - Free]
+**CTA Button:** [Post Your Quest - Free]
 
 ---
 
 ## Social Proof Section
 
-### What Homeowners Say
+### What Quest Givers Say
 
-> "Finally, a contractor who showed up when he said he would. The verification gave me peace of mind."
-> — Sarah M., Kitchen Remodel
+> "Finally, an adventurer who showed up when he said he would. The verification gave me peace of mind."
+— Sarah M., Kitchen Remodel
 
 > "I posted on Tuesday, had quotes by Thursday, work started Monday. Unreal."
-> — Mike T., Fence Installation
+— Mike T., Fence Installation
 
-> "No more sorting through 40 voicemails from random people. Just 2 qualified contractors."
-> — Jennifer L., Roof Repair
+> "No more sorting through 40 voicemails from random people. Just 2 qualified adventurers."
+— Jennifer L., Roof Repair
 
-### What Contractors Say
+### What Adventurers Say
 
-> "I used to pay $60/lead and compete with 20 guys. Now I pay $25/month and get 3-4 solid jobs."
-> — Dave R., Electrician
+> "I used to pay $60/lead and compete with 20 guys. Now I pay $25/month and get 3-4 solid quests."
+— Dave R., Electrician
 
-> "The homeowners here actually want work done. Not just price shopping."
-> — Maria S., General Contractor
+> "The quest givers here actually want work done. Not just price shopping."
+— Maria S., General Contractor
 
 > "Best marketing spend I've made. Period."
-> — Tom K., Plumber
+— Tom K., Plumber
 
 **Note:** These are placeholder quotes. Replace with real ones as you get them.
 
@@ -110,36 +110,36 @@ We email you both. You talk. You decide. No middleman, no markup, no app to down
 
 ## Pricing Section
 
-### For Homeowners
+### For Quest Givers
 
 #### Free
-- 1 job post per month
-- Connect with up to 3 contractors
-- Basic job listing
+- 1 quest post per month
+- Connect with up to 3 adventurers
+- Basic quest listing
 
 #### Pro - $25/month
-- Unlimited job posts
-- Unlimited contractor contacts
-- Priority listing (contractors see your job first)
+- Unlimited quest posts
+- Unlimited adventurer contacts
+- Priority listing (adventurers see your quest first)
 - Direct phone numbers (no waiting)
 
 [Start Free] [Upgrade to Pro]
 
 ---
 
-### For Contractors
+### For Adventurers
 
 #### Free
 - Create your verified profile
-- Browse jobs in your area
-- Express interest on 5 jobs/month
+- Browse quests in your area
+- Apply to join 5 parties/month
 - Manual license verification included
 
 #### Pro - $25/month
-- Unlimited job interest expressions
+- Unlimited quest applications
 - Priority placement in search results
-- "Verified Pro" badge on your profile
-- First access to new job posts
+- "Verified Adventurer" badge on your profile
+- First access to new quests
 
 [Create Free Profile] [Upgrade to Pro]
 
@@ -147,25 +147,25 @@ We email you both. You talk. You decide. No middleman, no markup, no app to down
 
 ## FAQ (5 Questions)
 
-### How do you verify contractors?
+### How do you verify adventurers?
 
-We manually check every contractor's license against state contractor board databases. We confirm insurance is current. We review photos of past work. It takes us 10 minutes, but it saves you hours of worry.
+We manually check every adventurer's license against state contractor board databases. We confirm insurance is current. We review photos of past work. It takes us 10 minutes, but it saves you hours of worry.
 
-### What if I don't like the contractors matched?
+### What if I don't like the adventurers matched?
 
-No problem. You're never obligated to hire anyone. If the match isn't right, just let us know and we'll try to find better options. Or walk away—no hard feelings.
+No problem. You're never obligated to hire anyone. If the party formation isn't right, just let us know and we'll try to find better options. Or walk away—no hard feelings.
 
-### How do contractors get paid?
+### How do adventurers get paid?
 
-However you both agree. Cash, check, Venmo, bank transfer—whatever works for you. We don't handle payments and we don't take a cut. We just make the introduction.
+However you both agree. Cash, check, Venmo, bank transfer—whatever works for you. We don't handle payments and we don't take a cut. We just form the party.
 
 ### What cities do you serve?
 
 Right now we're focused on **[YOUR CITY]**. We're starting small to ensure quality. If you're nearby, sign up anyway—we'll expand soon.
 
-### What if something goes wrong with the project?
+### What if something goes wrong with the quest?
 
-We verify contractors, but we don't guarantee their work. That's between you and them. We do track outcomes and remove contractors who get consistent complaints. Always check references and get everything in writing.
+We verify adventurers, but we don't guarantee their work. That's between you and them. We do track outcomes and remove adventurers who get consistent complaints. Always check references and get everything in writing.
 
 ---
 
@@ -173,21 +173,21 @@ We verify contractors, but we don't guarantee their work. That's between you and
 
 ### Primary CTA (Bottom of page)
 
-## Ready to Find Your Contractor?
+## Ready to Join the Guild?
 
-Stop searching. Start your project.
+Stop searching. Start your quest.
 
-[Post Your Job - Takes 2 Minutes]
+[Post Your Quest - Takes 2 Minutes]
 
 *Free to post. Upgrade anytime.*
 
 ---
 
-### Secondary CTA (For contractors)
+### Secondary CTA (For adventurers)
 
-## Are You a Contractor?
+## Are You an Adventurer?
 
-Get in front of homeowners who are ready to hire.
+Get in front of quest givers who are ready to hire.
 
 [Create Free Profile]
 
@@ -195,10 +195,10 @@ Get in front of homeowners who are ready to hire.
 
 ### Urgency CTA (Optional)
 
-## Launch Special
+## Grand Opening
 
-First 50 contractors get 3 months free Pro membership.
-First 50 homeowners get free Pro for life.
+First 50 adventurers get 3 months free Pro membership.
+First 50 quest givers get free Pro for life.
 
 [Claim Your Spot]
 
@@ -209,8 +209,8 @@ First 50 homeowners get free Pro for life.
 **Product**
 - How It Works
 - Pricing
-- For Contractors
-- For Homeowners
+- For Adventurers
+- For Quest Givers
 
 **Company**
 - About Us
@@ -221,7 +221,7 @@ First 50 homeowners get free Pro for life.
 **Legal**
 - Terms of Service
 - Privacy Policy
-- Contractor Agreement
+- Adventurer Agreement
 
 **Connect**
 - Twitter/X
@@ -232,12 +232,12 @@ First 50 homeowners get free Pro for life.
 
 ## Meta Description (for SEO)
 
-Find verified, licensed contractors in [City]. No spam, no unlicensed workers. Post your job free, get matched with qualified pros in 24-48 hours.
+Join the Guild — find verified, licensed contractors in [City]. No spam, no unlicensed workers. Post your quest free, get matched with qualified pros in 24-48 hours.
 
 ---
 
 ## Page Title Options
 
-1. Contractie | Find Verified Contractors in [City]
-2. Contractie | Verified Contractors, Real Results
-3. Contractie | No More Bad Contractor Experiences
+1. Guild | Join the Guild | Find Verified Contractors in [City]
+2. Guild | Post a Quest. Find Your Party.
+3. Guild | Where Quests Get Done

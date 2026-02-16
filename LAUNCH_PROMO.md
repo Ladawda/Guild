@@ -1,44 +1,44 @@
-# Contractie - Launch Promo & Positioning
+# Guild - Launch Promo & Positioning
 
 ## Final Pricing Model
 
 | Side | Regular Price | Launch Promo |
 |------|---------------|--------------|
-| **Clients** (Job Posters) | $10 per job post | **FREE for first month** |
-| **Contractors** | $49/month unlimited | **$25/month lifetime** (first 100 only) |
+| **Quest Givers** (Clients) | $10 per quest | **FREE for first month** |
+| **Adventurers** (Contractors) | $49/month unlimited | **$25/month lifetime** (first 100 only) |
 
 **Promo Positioning:**
-- "Grand Opening — Free Job Posting This Month"
-- "Founding Contractor Pricing — 50% Off Forever"
+- "Grand Opening — Post Your First Quest Free"
+- "Founding Adventurer Pricing — 50% Off Forever"
 
 ---
 
 ## Value Proposition
 
 ### The Problem (Competitors)
-| Angi/Thumbtack/HomeAdvisor | Contractie |
-|----------------------------|------------|
+| Angi/Thumbtack/HomeAdvisor | Guild |
+|----------------------------|-------|
 | $25-120 per lead | $10 flat (or free launch) |
 | 20% commission on jobs | 0% commission |
-| Lead shared with 3-5 contractors | Direct connection |
-| Pay for leads that don't answer | Pay only when you apply |
+| Lead shared with 3-5 contractors | Direct party formation |
+| Pay for leads that don't answer | Pay only when you join a quest |
 | Race to bottom on price | Your rates, your terms |
 
-### The Contractie Way
-> "We don't sell leads. We don't take cuts. We just connect."
+### The Guild Way
+> "We don't sell leads. We don't take cuts. We just connect adventurers with quests."
 
-**For Clients:**
-- Post jobs for free (launch month)
-- Get direct access to verified contractors
+**For Quest Givers:**
+- Post quests for free (launch month)
+- Get direct access to verified adventurers
 - No middleman markup
-- You negotiate directly
+- You choose your party
 
-**For Contractors:**
-- $25/month for unlimited job access (founding pricing)
+**For Adventurers:**
+- $25/month for unlimited quest access (founding pricing)
 - No per-lead fees
-- No commission on jobs you win
+- No commission on quests you complete
 - Keep 100% of your earnings
-- Direct relationship with clients
+- Direct relationship with quest givers
 
 ---
 
@@ -55,17 +55,17 @@
 **Option 3: Direct Comparison**
 > "Angi Takes 20%. We Take $0."
 
-**Option 4: Community**
-> "Made by Contractors, for Contractors"
+**Option 4: Community (Guild)**
+> "Join the Guild"
 
 **Option 5: Simple**
-> "Find Work. Keep 100%."
+> "Post a Quest. Find Your Party."
 
 ### Subheadline
 > "No lead fees. No commissions. No BS. Just direct connections between people who need work done and people who do it."
 
 ### Launch Promo Banner
-> 🎉 **GRAND OPENING** — First month FREE for job posters • First 100 contractors get 50% off forever
+> 🎉 **GRAND OPENING** — First month FREE for quest posters • First 100 adventurers get 50% off forever
 
 ---
 
@@ -73,20 +73,22 @@
 
 ### Hero Section
 ```
-[Logo]
+[Guild Logo]
 
-# Find Work. Keep 100%.
+# Join the Guild
+
+Post a quest. Find your party. Get it done.
 
 Stop paying $50-100 for leads that go nowhere.
-Contractie connects you directly with clients — 
+Guild connects you directly with quest givers — 
 no middleman, no commission, no BS.
 
-🎉 Grand Opening: FREE job posting this month
-    First 100 contractors: $25/month (50% off forever)
+🎉 Grand Opening: Post your first quest FREE this month
+    First 100 adventurers: $25/month (50% off forever)
 
-[Email Input] [Get Early Access]
+[Email Input] [Join the Guild]
 
-Join 500+ contractors and 200+ clients on the waitlist
+Join 500+ adventurers and 200+ quest givers on the waitlist
 ```
 
 ### Problem Section
@@ -99,17 +101,17 @@ Join 500+ contractors and 200+ clients on the waitlist
 ❌ Race to bottom on pricing
 ❌ Middleman controls communication
 
-Contractors: You're not a revenue stream.
-Clients: You're not a cash cow.
+Adventurers: You're not a revenue stream.
+Quest Givers: You're not a cash cow.
 ```
 
 ### Solution Section
 ```
-## The Contractie Way
+## The Guild Way
 
-✅ Clients: $10 flat (FREE first month)
-✅ Contractors: $25/month unlimited (founding price)
-✅ Direct connection — talk immediately
+✅ Quest Givers: $10 flat (FREE first month)
+✅ Adventurers: $25/month unlimited (founding price)
+✅ Direct party formation — talk immediately
 ✅ You set your rates
 ✅ You keep 100% of earnings
 
@@ -122,9 +124,9 @@ We just connect.
 ```
 ## Simple as 1-2-3
 
-1. **Post** — Client posts job (FREE launch month)
-2. **Connect** — Contractor expresses interest ($25/month unlimited)
-3. **Work** — Direct deal, no interference
+1. **Post** — Quest giver posts a quest (FREE launch month)
+2. **Apply** — Adventurer applies to join the party ($25/month unlimited)
+3. **Complete** — Form your party, complete the quest
 
 That's it. No hidden fees. No surprises.
 ```
@@ -139,11 +141,11 @@ That's it. No hidden fees. No surprises.
 "I'm tired of paying HomeAdvisor $80 for leads that don't answer."
 — Sarah K., Plumber, Denver CO
 
-"Can't wait to post my first job without the markup."
+"Can't wait to post my first quest without the markup."
 — David L., Property Manager, Phoenix AZ
 
-[Join 500+ contractors waiting]
-[Join 200+ clients waiting]
+[Join 500+ adventurers waiting]
+[Join 200+ quest givers waiting]
 ```
 
 ### FAQ
@@ -153,22 +155,22 @@ That's it. No hidden fees. No surprises.
 **How is this different from Angi/Thumbtack?**
 They sell the same lead to 3-5 contractors and take 20% commission. We charge flat fees and you keep 100%.
 
-**Is it really free for job posters?**
-Yes, during our grand opening month. After that, $10 per job post.
+**Is it really free for quest posters?**
+Yes, during our grand opening month. After that, $10 per quest post.
 
-**Is it really $25/month for contractors?**
-For the first 100 contractors who join — yes, that's 50% off forever. After that, $49/month.
+**Is it really $25/month for adventurers?**
+For the first 100 adventurers who join — yes, that's 50% off forever. After that, $49/month.
 
 **How do you make money?**
 Flat fees only. No commissions, no lead selling, no hidden charges.
 
-**What if no one responds to my job?**
-If no contractor expresses interest in 7 days, you get a credit for another free post.
+**What if no one responds to my quest?**
+If no adventurer applies within 7 days, you get a credit for another free quest post.
 
 **What cities are launching?**
 We're starting in [City 1], [City 2], [City 3]. Join the waitlist to vote for your city.
 
-**How are contractors verified?**
+**How are adventurers verified?**
 We manually verify every license. No unlicensed workers allowed.
 ```
 
@@ -176,10 +178,10 @@ We manually verify every license. No unlicensed workers allowed.
 ```
 ## Get Early Access
 
-Be first in line when we launch.
+Be first in line when the guild opens.
 
-[Email] [I am a: Client/Contractor] [Zip Code]
-[Get Early Access]
+[Email] [I am a: Quest Giver/Adventurer] [Zip Code]
+[Join the Guild]
 
 🔒 We hate spam too. Unsubscribe anytime.
 ```
@@ -190,10 +192,10 @@ Be first in line when we launch.
 
 1. **Email** (required)
 2. **I am a:** (radio)
-   - Client/Property Manager/Business (need work done)
-   - Contractor (looking for work)
+   - Quest Giver/Property Manager/Business (need work done)
+   - Adventurer (looking for work)
 3. **Zip Code** (for launch notification priority)
-4. **What trade?** (contractors only, dropdown)
+4. **What trade?** (adventurers only, dropdown)
 5. **How did you hear about us?** (optional)
 
 ---
@@ -201,12 +203,12 @@ Be first in line when we launch.
 ## Launch Sequence
 
 ### Week 1: Soft Launch
-- Email waitlist: "We're live in [City]"
-- First 100 contractors get founding pricing
-- Free job posting for all clients
+- Email waitlist: "The guild is open in [City]"
+- First 100 adventurers get founding pricing
+- Free quest posting for all quest givers
 
 ### Week 2: Gather Feedback
-- Daily check-ins with first users
+- Daily check-ins with first guild members
 - Fix issues immediately
 - Document testimonials
 
@@ -227,34 +229,34 @@ Be first in line when we launch.
 | Metric | Target |
 |--------|--------|
 | Waitlist signups | 1,000 before launch |
-| Day 1 job posts | 50 |
-| Day 1 contractor signups | 100 |
+| Day 1 quest posts | 50 |
+| Day 1 adventurer signups | 100 |
 | 30-day retention | 60% |
-| Contractor → Pro upgrade | 20% |
+| Adventurer → Pro upgrade | 20% |
 
 ---
 
 ## Positioning Against Competitors
 
-| | Angi | Thumbtack | HomeAdvisor | **Contractie** |
-|---|------|-----------|-------------|----------------|
-| **Client Cost** | Free | Free | Free | **$10/post (FREE launch)** |
-| **Contractor Cost** | $25-120/lead | $10-75/lead | $15-100/lead | **$25/month unlimited** |
+| | Angi | Thumbtack | HomeAdvisor | **Guild** |
+|---|------|-----------|-------------|-----------|
+| **Quest Giver Cost** | Free | Free | Free | **$10/quest (FREE launch)** |
+| **Adventurer Cost** | $25-120/lead | $10-75/lead | $15-100/lead | **$25/month unlimited** |
 | **Commission** | 20% | 0% | 0% | **0%** |
-| **Lead Sharing** | 3-5 contractors | 3-5 contractors | 3-5 contractors | **Direct only** |
-| **Relationship** | Platform controls | Platform controls | Platform controls | **You control** |
+| **Lead Sharing** | 3-5 contractors | 3-5 contractors | 3-5 contractors | **Direct party only** |
+| **Relationship** | Platform controls | Platform controls | Platform controls | **Guild members** |
 
-**Key Message:** We're not a marketplace. We're a connection platform.
+**Key Message:** Join a guild, not a marketplace.
 
 ---
 
 ## Launch Checklist
 
-- [ ] Update all docs with final pricing
+- [ ] Update all docs with Guild branding
 - [ ] Build waiting list landing page
 - [ ] Set up email capture (ConvertKit/Mailchimp)
-- [ ] Create social media accounts
-- [ ] Design promo graphics
+- [ ] Create social media accounts (@joinguild)
+- [ ] Design promo graphics with guild theme
 - [ ] Write launch email sequence
 - [ ] Prepare press release
 - [ ] Set up analytics
@@ -265,10 +267,10 @@ Be first in line when we launch.
 
 ## Tagline Options
 
-1. "Find Work. Keep 100%."
-2. "No Middleman. No Commission. Just Connect."
-3. "The Anti-Marketplace Marketplace."
-4. "Finally, A Contractor Platform That Isn't Trying to Rob You."
-5. "Direct. Simple. Fair."
+1. "Join the Guild"
+2. "Post a Quest. Find Your Party."
+3. "No Middleman. No Commission. Just Connect."
+4. "Where Quests Get Done"
+5. "Better Together"
 
-**Recommended:** "Find Work. Keep 100%." (simple, clear, benefit-focused)
+**Recommended:** "Join the Guild" (simple, clear, community-focused)

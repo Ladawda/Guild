@@ -1,6 +1,6 @@
-# Communication Flow
+# Guild - Communication Flow
 
-## How Homeowners and Contractors Connect
+## How Quest Givers and Adventurers Connect
 
 This document outlines the complete manual process for connecting users. No in-app messaging - everything flows through you via email.
 
@@ -8,23 +8,23 @@ This document outlines the complete manual process for connecting users. No in-a
 
 ## The 6-Step Connection Process
 
-### Step 1: Homeowner Posts Job
+### Step 1: Quest Giver Posts Quest
 
 **What happens:**
-- Homeowner fills out job posting form
-- Job appears in contractor browse feed
-- Homeowner receives confirmation email
+- Quest giver fills out quest posting form
+- Quest appears in adventurer browse feed
+- Quest giver receives confirmation email
 
 **Your action:** None (automated)
 
 ---
 
-### Step 2: Contractor Expresses Interest
+### Step 2: Adventurer Applies to Quest
 
 **What happens:**
-- Contractor browses jobs in their area/trade
-- Clicks "Express Interest" button
-- System records the match in database
+- Adventurer browses quests in their area/trade
+- Clicks "Apply to Quest" button
+- System records the application in database
 
 **Your action:** None yet (automated)
 
@@ -34,50 +34,50 @@ This document outlines the complete manual process for connecting users. No in-a
 
 **What happens:**
 - You receive notification (email or admin dashboard)
-- Review contractor profile:
+- Review adventurer profile:
   - Is their license verified?
   - Do they have relevant experience?
   - Is their profile complete?
-- Review job details
+- Review quest details
 
 **Your action:**
 - Log into admin dashboard
-- Click contractor name to view full profile
+- Click adventurer name to view full profile
 - Check license on state contractor board website
-- Verify they match the job requirements
+- Verify they match the quest requirements
 
 **Decision:**
 - ✅ **Approve** → Proceed to Step 4
-- ❌ **Reject** → Send polite decline email to contractor
+- ❌ **Reject** → Send polite decline email to adventurer
 
 ---
 
-### Step 4: You Send Email Introduction
+### Step 4: You Send Party Formation Email
 
 **What happens:**
-- You manually send intro email to BOTH parties
+- You manually send party formation email to BOTH parties
 - Email includes contact info for both sides
 - Sets expectation for off-platform communication
 
 **Your action:**
 - Copy email template from EMAIL_TEMPLATES.md
 - Customize with:
-  - Contractor name and company
-  - Homeowner name
-  - Job details
+  - Adventurer name and company
+  - Quest giver name
+  - Quest details
   - Both email addresses
 - Send to both parties (CC or separate emails)
 
 **Important:** Include this line:
-> "I'll follow up in one week to see how things went!"
+> "I'll follow up in one week to see how the quest went!"
 
 ---
 
 ### Step 5: They Communicate Off-Platform
 
 **What happens:**
-- Contractor calls/emails homeowner
-- They discuss project details
+- Adventurer calls/emails quest giver
+- They discuss quest details
 - They negotiate price and timeline
 - Payment happens off-platform (cash, check, Venmo, etc.)
 
@@ -88,16 +88,16 @@ This document outlines the complete manual process for connecting users. No in-a
 ### Step 6: You Follow Up for Outcome
 
 **What happens:**
-- 7 days after intro, you send follow-up email
-- Ask if they connected and project status
+- 7 days after party formation, you send follow-up email
+- Ask if they connected and quest status
 - Record outcome in tracking spreadsheet
 
 **Your action:**
-- Check tracking spreadsheet for intros sent 7 days ago
+- Check tracking spreadsheet for parties formed 7 days ago
 - Send follow-up email to BOTH parties
 - Update spreadsheet with outcome:
   - Connected? (Yes/No)
-  - Project status? (Quoted / In Progress / Completed / Declined)
+  - Quest status? (Quoted / In Progress / Completed / Declined)
   - Feedback?
 
 ---
@@ -106,8 +106,8 @@ This document outlines the complete manual process for connecting users. No in-a
 
 Create a Google Sheet with these columns:
 
-| Date | Job ID | Homeowner | Contractor | Status | Intro Sent | Follow-up Date | Outcome | Notes |
-|------|--------|-----------|------------|--------|------------|----------------|---------|-------|
+| Date | Quest ID | Quest Giver | Adventurer | Status | Party Formed | Follow-up Date | Outcome | Notes |
+|------|----------|-------------|------------|--------|--------------|----------------|---------|-------|
 | 2/16 | 101 | John D. | ABC Roofing | Pending | 2/16 | 2/23 | - | Waiting |
 | 2/15 | 102 | Sarah M. | Pro Electric | Approved | 2/15 | 2/22 | Connected | Quote given |
 
@@ -118,24 +118,24 @@ Create a Google Sheet with these columns:
 ### What You Need to Check
 
 **Daily:**
-- New contractor signups (verify licenses)
-- New "Express Interest" clicks (send intros)
+- New adventurer signups (verify licenses)
+- New quest applications (send party formations)
 
 **Weekly:**
-- Follow-ups due (7 days after intro)
-- New job posts (send to contractor email list)
+- Follow-ups due (7 days after party formation)
+- New quest posts (send to adventurer email list)
 
 ### How to Stay Notified
 
 **Option 1: Simple (Recommended)**
-- Set up email notifications for new signups/interests
+- Set up email notifications for new signups/applications
 - Check email 2x daily
 - Process in batches
 
 **Option 2: Admin Dashboard**
 - Simple page showing:
-  - Pending verifications (contractors to approve)
-  - Pending intros (matches to email)
+  - Pending verifications (adventurers to approve)
+  - Pending party formations (applications to email)
   - Follow-ups due today
 
 ---
@@ -144,33 +144,33 @@ Create a Google Sheet with these columns:
 
 See [EMAIL_TEMPLATES.md](./EMAIL_TEMPLATES.md) for full templates:
 
-1. **Contractor Welcome** - Sent after signup
-2. **Homeowner Welcome** - Sent after signup  
-3. **Contractor Approved** - After you verify license
-4. **Match Intro** - THE KEY EMAIL - intro to both parties
-5. **Follow-up** - 7 days after intro
+1. **Adventurer Welcome** - Sent after signup
+2. **Quest Giver Welcome** - Sent after signup  
+3. **Adventurer Approved** - After you verify license
+4. **Party Formation** - THE KEY EMAIL - intro to both parties
+5. **Follow-up** - 7 days after party formation
 
 ---
 
 ## Common Scenarios
 
-### Scenario: Contractor Not Verified
-- Don't send intro
-- Email contractor: "Please complete your profile and verify license"
+### Scenario: Adventurer Not Verified
+- Don't send party formation
+- Email adventurer: "Please complete your profile and verify license"
 
-### Scenario: Job Already Filled
-- Homeowner emails you: "I found someone"
-- Mark job as closed in database
-- Notify any pending contractors: "This job has been filled"
+### Scenario: Quest Already Filled
+- Quest giver emails you: "I found someone"
+- Mark quest as completed in database
+- Notify any pending adventurers: "This quest has been completed"
 
 ### Scenario: Bad Match
-- Homeowner complains about contractor
+- Quest giver complains about adventurer
 - Note in spreadsheet
-- Don't use that contractor for similar jobs
-- If serious issue, remove contractor from platform
+- Don't use that adventurer for similar quests
+- If serious issue, remove adventurer from guild
 
-### Scenario: No Response to Intro
-- After 3 days, email contractor: "Did you connect with [Homeowner]?"
+### Scenario: No Response to Party Formation
+- After 3 days, email adventurer: "Did you connect with [Quest Giver]?"
 - After 7 days, mark as "No response" and move on
 
 ---
@@ -180,9 +180,22 @@ See [EMAIL_TEMPLATES.md](./EMAIL_TEMPLATES.md) for full templates:
 | Activity | Time/Day |
 |----------|----------|
 | Check notifications | 5 mins |
-| Verify 1-2 contractors | 10 mins |
-| Send 1-2 intro emails | 5 mins |
+| Verify 1-2 adventurers | 10 mins |
+| Send 1-2 party formation emails | 5 mins |
 | Follow-ups | 5 mins |
 | **Total** | **~25 mins/day** |
 
-Once you have 10+ active matches/week, consider building automated messaging.
+Once you have 10+ active parties/week, consider building automated messaging.
+
+---
+
+## Guild Terminology in Practice
+
+| Standard Term | Guild Term | Usage |
+|---------------|------------|-------|
+| Job | Quest | Public-facing |
+| Contractor | Adventurer | Public-facing |
+| Client | Quest Giver | Public-facing |
+| Match | Party Formation | Internal/process |
+| Apply | Apply to Quest | Button text |
+| Complete | Quest Complete | Status |

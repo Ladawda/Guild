@@ -1,8 +1,8 @@
-# Contractie - Contractor User Flow
+# Guild - Adventurer User Flow
 
 ## Overview
 
-Complete journey for contractors from discovery to getting hired and completing jobs.
+Complete journey for adventurers (contractors) from discovery to getting hired and completing quests.
 
 ---
 
@@ -10,8 +10,8 @@ Complete journey for contractors from discovery to getting hired and completing 
 
 | Tier | Price | Features |
 |------|-------|----------|
-| **Founding Member** | **$25/month** | Unlimited applications, lifetime rate (first 100 only) |
-| **Regular** | **$49/month** | Unlimited applications |
+| **Founding Member** | **$25/month** | Unlimited quest applications, lifetime rate (first 100 only) |
+| **Regular** | **$49/month** | Unlimited quest applications |
 
 ---
 
@@ -21,33 +21,33 @@ Complete journey for contractors from discovery to getting hired and completing 
 | Source | Experience |
 |--------|------------|
 | Google Search | "Find local contractor jobs" → SEO landing page |
-| Referral | Link from friend/other contractor |
-| Direct | contractie.com/contractors |
+| Referral | Link from friend/other adventurer |
+| Direct | joinguild.app/adventurers |
 
-### Landing Page (Contractor Focus)
-**URL**: `/contractors`
+### Landing Page (Adventurer Focus)
+**URL**: `/adventurers`
 
 **Hero Section:**
-- Headline: "Find Work. Keep 100%."
-- Subheadline: "Stop paying $50-100 for leads that ghost you. One flat fee, unlimited opportunities."
+- Headline: "Join the Guild"
+- Subheadline: "Stop paying $50-100 for leads that ghost you. One flat fee, unlimited quests."
 - CTA: "Create Free Profile"
 - Trust badges: "No Lead Fees", "No Commission", "Direct Connection"
 
 **Launch Promo Banner:**
-🎉 **GRAND OPENING** — First 100 contractors get $25/month forever (50% off!)
+🎉 **GRAND OPENING** — First 100 adventurers get $25/month forever (50% off!)
 
 **Social Proof:**
-- "Join 500+ contractors already finding work"
-- Testimonial carousel from contractors
+- "Join 500+ adventurers already finding work"
+- Testimonial carousel from adventurers
 
 **How It Works (3 steps):**
 1. Create your profile (5 min)
-2. Browse jobs in your area
-3. Get contacted by clients
+2. Browse quests in your area
+3. Get contacted by quest givers
 
 **FAQ Preview:**
 - Is it really $25/month? → Yes, for founding members
-- How do I get paid? → Directly by client, we take 0%
+- How do I get paid? → Directly by quest giver, we take 0%
 - What trades are accepted? → All licensed trades
 
 **CTA**: "Get Started" button → Signup modal
@@ -111,7 +111,7 @@ Complete journey for contractors from discovery to getting hired and completing 
 - Upload License Photo (file picker)
 
 **Help Text**: 
-- "Why we need this: Clients trust verified contractors. We manually verify every license."
+- "Why we need this: Quest givers trust verified adventurers. We manually verify every license."
 - "Don't have a license yet? [Learn about licensing requirements]"
 
 **File Upload:**
@@ -131,7 +131,7 @@ Complete journey for contractors from discovery to getting hired and completing 
 #### Step 2.5: Portfolio Photos
 **Screen**: Photo upload
 
-**Instructions**: "Show clients your best work. Upload 3-10 photos of completed projects."
+**Instructions**: "Show quest givers your best work. Upload 3-10 photos of completed quests."
 
 **Requirements:**
 - Minimum 3 photos
@@ -166,13 +166,13 @@ Complete journey for contractors from discovery to getting hired and completing 
 - Success screen: "Profile Submitted!"
 - Message: "We're verifying your license. This usually takes 24-48 hours."
 - Email confirmation sent
-- "While you wait, browse available jobs" (optional)
+- "While you wait, browse available quests" (optional)
 
 ---
 
 ## Phase 3: Pending Approval
 
-### State: contractor.status = "pending"
+### State: adventurer.status = "pending"
 
 **Dashboard View:**
 - Banner: "Your profile is being reviewed"
@@ -182,7 +182,7 @@ Complete journey for contractors from discovery to getting hired and completing 
 
 **Available Actions:**
 - Edit profile (changes reset approval timer)
-- Browse jobs (view only, can't express interest)
+- Browse quests (view only, can't apply)
 - Help/FAQ
 
 **Notifications:**
@@ -194,12 +194,12 @@ Complete journey for contractors from discovery to getting hired and completing 
 ## Phase 4: Approved & Active
 
 ### Approval Email
-**Subject**: "You're approved! Start finding jobs on Contractie"
+**Subject**: "You're approved! Join the Guild"
 
 **Content:**
 - Congratulations message
 - "Your license has been verified"
-- CTA: "Browse Jobs Now"
+- CTA: "Browse Quests Now"
 - Quick tips for success
 
 ### Subscription Step
@@ -234,33 +234,33 @@ Complete journey for contractors from discovery to getting hired and completing 
 - [x] Create profile
 - [x] Verify license
 - [ ] Subscribe
-- [ ] Complete first job
+- [ ] Complete first quest
 
 **Quick Tour Modal:**
-1. "This is your dashboard" - shows job feed
+1. "This is your dashboard" - shows quest feed
 2. "Filter by your trades" - shows filter bar
-3. "Express interest in jobs" - shows button
-4. "Client contacts you directly" - explains process
+3. "Apply to quests" - shows button
+4. "Quest giver contacts you directly" - explains process
 
-**CTA**: "Start Browsing Jobs"
+**CTA**: "Start Browsing Quests"
 
 ---
 
-## Phase 5: Browsing & Applying to Jobs
+## Phase 5: Browsing & Applying to Quests
 
 ### Dashboard
-**URL**: `/contractor/dashboard`
+**URL**: `/adventurer/dashboard`
 
 **Layout:**
 - Header: Logo, navigation, profile menu
 - Sidebar: Filters
-- Main: Job feed
+- Main: Quest feed
 
-**Job Card:**
+**Quest Card:**
 ```
 +------------------------+
 | [Trade Badge]          |
-| Job Title              |
+| Quest Title            |
 | Location: ZIP Code     |
 | Budget: $X - $Y        |
 | Posted: 2 hours ago    |
@@ -269,44 +269,44 @@ Complete journey for contractors from discovery to getting hired and completing 
 ```
 
 **Filters (Sidebar):**
-- Trade (checkboxes of contractor's trades)
+- Trade (checkboxes of adventurer's trades)
 - Distance (5, 10, 25, 50 miles)
 - Budget (min/max sliders)
 - Posted (last 24h, 7 days, 30 days)
 
-### Job Detail View
-**URL**: `/jobs/[id]`
+### Quest Detail View
+**URL**: `/quests/[id]`
 
 **Content:**
-- Job title
+- Quest title
 - Trade type
 - Full description
 - Location (ZIP, approximate area)
 - Budget range (if provided)
-- Photos (if client uploaded)
+- Photos (if quest giver uploaded)
 - Posted date
-- "Express Interest" button
+- "Apply to Quest" button
 
-**Express Interest Modal:**
-- Pre-filled message: "Hi, I'm [Name], a licensed [Trade] with [X] years of experience. I'd love to discuss your project."
+**Apply to Quest Modal:**
+- Pre-filled message: "Hi, I'm [Name], a licensed [Trade] with [X] years of experience. I'd love to discuss your quest."
 - Editable message (500 chars)
-- "Send Interest" button
+- "Send Application" button
 
-**After Expressing Interest:**
-- Success toast: "Interest sent! Client will review your profile."
-- Job marked as "Interest Expressed" in feed
-- Email notification to client
+**After Applying:**
+- Success toast: "Application sent! Quest giver will review your profile."
+- Quest marked as "Applied" in feed
+- Email notification to quest giver
 
 ---
 
 ## Phase 6: Getting Selected
 
-### Notification: Client Selected You
-**Email Subject**: "[Client Name] wants to connect about [Job Title]"
+### Notification: Quest Giver Selected You
+**Email Subject**: "[Quest Giver Name] wants to form a party for [Quest Title]"
 
 **Email Content:**
-- Client name and contact info
-- Job details
+- Quest giver name and contact info
+- Quest details
 - Your next step: "Contact them within 24 hours"
 - Tips for first contact
 
@@ -315,20 +315,20 @@ Complete journey for contractors from discovery to getting hired and completing 
 - Entry in applications list
 
 ### Applications Dashboard
-**URL**: `/contractor/applications`
+**URL**: `/adventurer/applications`
 
 **Tabs:**
-- Active (client hasn't decided)
+- Active (quest giver hasn't decided)
 - Selected (you're chosen, awaiting contact)
-- Completed (job done)
-- Declined (client chose someone else)
+- Completed (quest done)
+- Declined (quest giver chose someone else)
 
-**Selected Job Card:**
+**Selected Quest Card:**
 ```
 +------------------------+
 | 🎉 SELECTED            |
-| Job Title              |
-| Client: [Name]         |
+| Quest Title            |
+| Quest Giver: [Name]    |
 | Phone: [Number]        |
 | Email: [Email]         |
 | [Mark as Contacted]    |
@@ -336,36 +336,36 @@ Complete journey for contractors from discovery to getting hired and completing 
 ```
 
 **After Contact:**
-- Contractor clicks "Mark as Contacted"
+- Adventurer clicks "Mark as Contacted"
 - Optional: Add notes (private)
 - Status changes to "In Discussion"
 
 ---
 
-## Phase 7: Job Execution
+## Phase 7: Quest Execution
 
-### Marking Job Status
+### Marking Quest Status
 
 **Status Options:**
 - In Discussion (initial contact made)
 - Scheduled (appointment set)
 - In Progress (work started)
-- Completed (work done)
+- Quest Complete (work done)
 
 **Completion Flow:**
-1. Contractor marks "Complete"
+1. Adventurer marks "Quest Complete"
 2. Uploads completion photos (optional, 0-5)
 3. Adds final notes
-4. Requests client mark as complete
+4. Requests quest giver mark as complete
 
 ---
 
 ## Summary
 
-The **Contractor** flow supports:
+The **Adventurer** flow supports:
 - ✅ All licensed trades
 - ✅ Multiple service areas
 - ✅ Portfolio showcasing
-- ✅ Direct client connection
+- ✅ Direct quest giver connection
 
 **Key Differentiator:** $25-49/month unlimited vs $25-120/lead on competitor platforms. Keep 100% of earnings.
