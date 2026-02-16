@@ -3,7 +3,7 @@
 import { useState, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Lock, ArrowLeft, MapPin } from "lucide-react";
-import { usePostHog, useFeatureFlagEnabled } from "posthog-js/react";
+import { usePostHog, useFeatureFlagVariantKey } from "posthog-js/react";
 import { joinWaitlist } from "@/app/actions/waitlist";
 
 function AmbientOrbs() {
@@ -60,10 +60,10 @@ export function Hero() {
   const [errorMsg, setErrorMsg] = useState("");
   const zipRef = useRef<HTMLInputElement>(null);
   const posthog = usePostHog();
-  const isClarityVariant = useFeatureFlagEnabled("landing-hero-variant");
-  const variant = isClarityVariant ? "clarity" : "control";
+  const flagVariant = useFeatureFlagVariantKey("landing-hero-variant");
+  const variant = flagVariant === "clarity" ? "clarity" : "control";
 
-  const copy = isClarityVariant
+  const copy = variant === "clarity"
     ? {
         badge: "NOW RECRUITING MEMBERS",
         headline: "Post Jobs. Find Contractors.",
