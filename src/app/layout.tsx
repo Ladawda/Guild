@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Plus_Jakarta_Sans } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import { PHProvider } from "@/lib/posthog/provider";
 import { PostHogPageView } from "@/lib/posthog/pageview";
@@ -36,6 +37,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-CWPHNGS1WT"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-CWPHNGS1WT');
+        `}
+      </Script>
       <body
         className={`${inter.variable} ${plusJakarta.variable} font-body antialiased`}
       >
