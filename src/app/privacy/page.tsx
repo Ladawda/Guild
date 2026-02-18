@@ -11,6 +11,14 @@ export const metadata: Metadata = {
     description:
       "Learn how Guild collects, uses, and protects your personal information.",
     url: "https://joinguild.app/privacy",
+    images: [
+      {
+        url: "https://tdhxydzsguacwuwtledk.supabase.co/storage/v1/object/public/Logo/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Guild — Privacy Policy",
+      },
+    ],
   },
 };
 
